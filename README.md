@@ -19,8 +19,9 @@ Este projeto implementa o jogo **PopOut** (uma variante dinâmica do Connect-4 o
 Disponível no link: https://colab.research.google.com/drive/13wMIT2_4kRB82vC8Cebwo5VCSuocLxDh?usp=sharing
 
 ### 2. Carregar os seguintes datasets no Google Colab: 
-*"dataset_iris.csv" 
-*"dataset_winner_15000ex"
+* "dataset_iris.csv"
+  
+* "dataset_winner_15000ex"
 >>Ambos estão disponíveis na pasta *Datasets* deste repositório. Faz o upload deles para o ambiente do Google Colab antes de executar as células.
 
 ### 3. Executar as células
