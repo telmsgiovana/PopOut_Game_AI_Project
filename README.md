@@ -39,7 +39,7 @@ Para treinar a árvore de decisão ID3 a jogar PopOut, é necessária uma matriz
 
 * **Ajuste do MCTS:** O MCTS Heurístico superou significativamente o MCTS Puro (**33 contra 17 vitórias**). A constante de exploração ideal foi definida como $C = 1.20$.
 * **Acurácia do ID3:** Quando treinado com 15.000 tabuleiros sintéticos, a árvore ID3 personalizada alcançou uma **acurácia sólida de 34.42%** na previsão das melhores jogadas.
-* 
+ 
 * **Matriz do Torneio (50 jogos por confronto):**
   * **ID3 vs. Agente Aleatório (Random):** **96% de Taxa de Vitória** (Confirmou que o modelo ID3 aprendeu com sucesso as regras estruturais e posicionais básicas).
   * **ID3 vs. MCTS Puro:** **10% de Taxa de Vitória**.
