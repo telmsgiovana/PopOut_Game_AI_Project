@@ -19,9 +19,10 @@ Este projeto implementa o jogo **PopOut** (uma variante dinâmica do Connect-4 o
 Disponível no link: https://colab.research.google.com/drive/13wMIT2_4kRB82vC8Cebwo5VCSuocLxDh?usp=sharing
 
 ### 2. Fazer download dos seguintes datasets: 
-* "dataset_iris.csv"
+* dataset_iris.csv
   
-* "dataset_winner_15000ex"
+* dataset_winner_15000ex
+  
 *Ambos estão disponíveis na pasta **Datasets** deste repositório. Faça o upload deles para o ambiente do Google Colab antes de executar as células.*
 
 ## Como fazer upload dos datasets no Colab
@@ -30,7 +31,7 @@ No menu lateral esquerdo do Google Colab:
 
 * clicar em Files
 * clicar em Upload
-* arrastar os datasets(após já ter feito o download):
+* arrastar os datasets(após ter feito o download):
 dataset_iris.csv
 dataset_winner_15000ex.csv
 
@@ -53,14 +54,14 @@ O agente MCTS com heurística apresenta a melhor performance global, enquanto o 
 Antes de enfrentar a complexidade do tabuleiro do jogo PopOut, a implementação personalizada do ID3 é validada utilizando o clássico **Iris Dataset**.
 
 ### 2. Dataset do Tabuleiro de Jogo (15.000 Exemplos)
-Para treinar a árvore de decisão ID3 a jogar PopOut, é necessária uma matriz que mapeie os estados do jogo para as decisões ideais.
+Para treinar a árvore de decisão ID3 para jogar PopOut, é necessária uma matriz que mapeie os estados do jogo para as decisões ideais.
 
 ---
 
 ##  Resultados dos Jogos e Métricas (Resumo)
 
 * **Ajuste do MCTS:** O MCTS Heurístico superou significativamente o MCTS Puro (**33 contra 17 vitórias**). A constante de exploração ideal foi definida como $C = 1.20$.
-* **Acurácia do ID3:** Quando treinado com 15.000 tabuleiros sintéticos, a árvore ID3 personalizada alcançou uma **acurácia sólida de 34.42%** na previsão das melhores jogadas.
+* **Acurácia do ID3:** Quando treinado com 15.000 tabuleiros sintéticos, a árvore ID3 personalizada alcançou uma **acurácia de 34.42%** na previsão das melhores jogadas (considerado razoável para um algoritmo que não é comumento utilizado para este tipo de jogo).
  
 * **Matriz do Torneio (50 jogos por confronto):**
   * **ID3 vs. Agente Aleatório (Random):** **96% de Taxa de Vitória** (Confirmou que o modelo ID3 aprendeu com sucesso as regras estruturais e posicionais básicas).
