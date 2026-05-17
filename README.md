@@ -5,14 +5,14 @@ Algoritmos de Monte Carlo Tree Search e ID3 treinados para jogar o jogo PopOut. 
 
 Um projeto de Inteligência Artificial desenvolvido para a unidade curricular de IA na **Universidade do Porto (FCUP)**.
 
-## 🎯 Visão Geral do Projeto
+##  Visão Geral do Projeto
 Este projeto implementa o jogo **PopOut** (uma variante dinâmica do Connect-4 onde os jogadores podem colocar uma peça a partir do topo ou remover/fazer "pop" de uma peça da sua cor na linha inferior) e compara dois paradigmas distintos de IA:
 1. **Monte Carlo Tree Search (MCTS):** Motor de pesquisa adversarial em tempo real que funciona através de estatísticas e simulações de jogadas (UCT).
 2. **Árvore de Decisão ID3:** Um classificador indutivo treinado offline utilizando um conjunto de dados sintético especialista gerado pelo motor MCTS.
 
 ---
 
-## 🚀 Como Executar no Google Colab e Requisitos dos Datasets
+##  Como Executar no Google Colab e Requisitos dos Datasets
 
 
 ### 1. Abrir o Projeto no Google Colab:
@@ -35,7 +35,7 @@ Para treinar a árvore de decisão ID3 a jogar PopOut, é necessária uma matriz
 
 ---
 
-## 📈 Resultados dos Jogos e Métricas (Resumo)
+##  Resultados dos Jogos e Métricas (Resumo)
 
 * **Ajuste do MCTS:** O MCTS Heurístico superou significativamente o MCTS Puro (**33 contra 17 vitórias**). A constante de exploração ideal foi definida como $C = 1.20$.
 * **Acurácia do ID3:** Quando treinado com 15.000 tabuleiros sintéticos, a árvore ID3 personalizada alcançou uma **acurácia sólida de 34.42%** na previsão das melhores jogadas.
@@ -47,7 +47,7 @@ Para treinar a árvore de decisão ID3 a jogar PopOut, é necessária uma matriz
 
 ---
 
-## 👥 Autores
+##  Autores
 * Telma Giovana de Freitas
 * Ezequiel Tchimbaya Cachapeu Paulo
 * Flávia 
