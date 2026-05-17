@@ -73,5 +73,5 @@ Para treinar a árvore de decisão ID3 para jogar PopOut, é necessária uma mat
 ##  Autores
 * Telma Giovana de Freitas
 * Ezequiel Tchimbaya Cachapeu Paulo
-* Flávia 
+* Flávia Figueredo
 * **Professor da Disciplina:** Francesco Renna (Universidade do Porto)
