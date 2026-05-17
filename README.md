@@ -18,18 +18,37 @@ Este projeto implementa o jogo **PopOut** (uma variante dinâmica do Connect-4 o
 ### 1. Abrir o Projeto no Google Colab:
 Disponível no link: https://colab.research.google.com/drive/13wMIT2_4kRB82vC8Cebwo5VCSuocLxDh?usp=sharing
 
-### 2. Carregar os seguintes datasets no Google Colab: 
+### 2. Fazer download dos seguintes datasets: 
 * "dataset_iris.csv"
   
 * "dataset_winner_15000ex"
->>Ambos estão disponíveis na pasta *Datasets* deste repositório. Faz o upload deles para o ambiente do Google Colab antes de executar as células.
+*Ambos estão disponíveis na pasta **Datasets** deste repositório. Faça o upload deles para o ambiente do Google Colab antes de executar as células.*
 
-### 3. Executar as células
+## Como fazer upload dos datasets no Colab
 
-Depois de executar a célula da *Interface do Jogo PopOut*, já poderás jogar! Podes optar por jogar contra qualquer uma das IA implementadas, ou podes escolher duas IAs para jogarem uma contra a outra. 
-Nota que o MCTS (com heurísticas) é o que apresenta a melhor performance, ou seja, é o melhor jogador, enquanto o ID3 tem a pior performance entre as IAs.
+No menu lateral esquerdo do Google Colab:
 
-## Para que servem estes datasets?
+* clicar em Files
+* clicar em Upload
+* arrastar os datasets(após já ter feito o download):
+dataset_iris.csv
+dataset_winner_15000ex.csv
+
+### 3. Executar todas as células
+
+Após executar a célula da *Interface do Jogo PopOut*, já poderás jogar! 
+## Modos disponíveis
+
+É possível:
+ 
+* jogar contra a IA MCTS pura;
+* jogar contra a IA MCTS com heurística;
+* jogar contra a IA ID3;
+* colocar duas IAs a jogar entre si.
+
+O agente MCTS com heurística apresenta a melhor performance global, enquanto o ID3 funciona como aproximação supervisionada baseada no dataset gerado a partir do MCTS com heurística.
+
+## Para que servem os  datasets?
 ### 1. Dataset Iris (Validação Inicial do ID3)
 Antes de enfrentar a complexidade do tabuleiro do jogo PopOut, a implementação personalizada do ID3 é validada utilizando o clássico **Iris Dataset**.
 
